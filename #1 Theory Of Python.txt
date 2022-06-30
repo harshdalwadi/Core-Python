@@ -1,0 +1,79 @@
+Q. What is Python?
+-> programming language
+-> Recent Version -> Python 3.10.0
+
+Q. Where is Used?  
+-> web development (server-side) [Ex. django,Flask], software development, mathematics, web scripting.
+-> Data Analysis, Big Data, Mathslib, ..
+-> Good Library Support Ex. Matplotlib, 
+-> AI, Machine Learning, IOT
+
+Q. Difference Between Python and other languages?
+-> Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose. Ex. Java, C++, C
+
+Q. Platform Independent?
+-> Windows, Mac, Linux, Raspberry Pi
+
+Q. Interpreter or Compiler?
+-> Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+
+Q. Topics?
+-> Data Types
+-> Numbers
+-> Casting
+-> Strings
+-> Booleans
+-> Operators
+-> Lists
+-> Tuples
+-> Sets
+-> Dictionaries
+-> If...Else
+-> While Loops
+-> For Loops
+-> Functions
+-> Lambda
+-> Arrays
+-> Classes/Objects
+-> Inheritance
+-> Iterators
+
+Q. Where it can be downloaded?
+-> https://www.python.org/downloads/
+
+
+Bytecode :  represents the fixed set of instucitons created by python developers representing all type of operators like all operations like sum, compare, memory related.
+-> size of each byte code instuction is 1 byte or o bit
+-> byte code instuction in .pyc file
+
+Python Compiler: coverts source code into byte code.
+
+Types of python compiler or Interpreter / Flavours of python:
+CPython - official
+Jpython or Jthon - python code though java
+PyPy
+RubyPython 
+IronPython - .net code
+StacklessPython 
+Pythonxy
+AnacondaPython 
+
+
+Source code(High Level) (.py)-> compiler ->Byte code(.pyc) -> Run though PVM (Interpreter) -> Binary Code/ machine code -> Output
+
+PVM - Python Virtual Machine - It's a Program
+-> PVM have Interpreter 
+-> We called PVM as Interpreter
+-> Bytecode into machine code
+
+Integrated development environment (IDE) 
+
+Identifier
+-> naming convention
+-> letter, number, speical char, underscore(_)
+
+Reserve Word
+
+Constant
+c , c++, java predefinded
+python - no define - it can be changed
