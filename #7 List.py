@@ -1,5 +1,10 @@
 '''-----------------------------------------------
 List - Mutable - []
+-> Duplication allowed
+-> Mutable - so we can modify it.
+-> ordered - we can access it through a[?].
+-> representation - []
+-> ex. a = [ 10, 20, 'python', 20.6 ]
 -----------------------------------------------'''
 lst = ["Harsh","Jimit","Aalap","Vishnu","Nisarg","Lay",3,4,3.4]
 print(lst)

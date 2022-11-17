@@ -37,7 +37,7 @@ print(a)
 
 # Power
 a = 10
-a = a **3
+a = a ** 3
 print(a)
 
 # Floor Division
@@ -103,8 +103,8 @@ Comparision operators
 2) Not Equals to - !=
 3) Less then - <
 4) Greater then - >
-5) Less then Greater then - >=
-6) Greater then Greater then - <=
+5) Less then equal to - <=
+6) Greater then equal to - >=
 -----------------------------------------------'''
 
 print(9 == 5)

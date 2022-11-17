@@ -3,11 +3,11 @@ Data Types:
 	1. List - Always in Squre Brackets	#Mutable
 	2. Set - Always in Curly Brackets
 	3. Dictionary - Use as pair and ( value 1 : value 2)
-	4. Int
-	5. Float
-	6. Complex
-	7. Tuple 	#Immutable
-	8. String
+	4. Int - 0
+	5. Float - 0.0
+	6. Complex - ai + j
+	7. Tuple -	#Immutable
+	8. String - chars
 '''
 a = [1,'Harsh',3.3,1+2j]
 print(a)

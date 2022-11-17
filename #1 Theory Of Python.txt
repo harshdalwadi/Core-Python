@@ -1,6 +1,7 @@
 Q. What is Python?
 -> programming language
 -> Recent Version -> Python 3.10.0
+-> it combines the features of C and Java programming language.
 
 Q. Where is Used?  
 -> web development (server-side) [Ex. django,Flask], software development, mathematics, web scripting.
@@ -17,49 +18,29 @@ Q. Platform Independent?
 Q. Interpreter or Compiler?
 -> Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
 
-Q. Topics?
--> Data Types
--> Numbers
--> Casting
--> Strings
--> Booleans
--> Operators
--> Lists
--> Tuples
--> Sets
--> Dictionaries
--> If...Else
--> While Loops
--> For Loops
--> Functions
--> Lambda
--> Arrays
--> Classes/Objects
--> Inheritance
--> Iterators
-
 Q. Where it can be downloaded?
 -> https://www.python.org/downloads/
 
 
-Bytecode :  represents the fixed set of instucitons created by python developers representing all type of operators like all operations like sum, compare, memory related.
--> size of each byte code instuction is 1 byte or o bit
+Bytecode : It represents the fixed set of instucitons created by python developers representing all type of operators like all operations like sum, compare, memory related.
+-> size of each byte code instuction is 1 byte or 8 bit
 -> byte code instuction in .pyc file
+
+python - hello.py
+byte - hello.pyc
 
 Python Compiler: coverts source code into byte code.
 
 Types of python compiler or Interpreter / Flavours of python:
-CPython - official
-Jpython or Jthon - python code though java
-PyPy
+CPython - official website
+Jpython or Jthon - run though java platform
 RubyPython 
 IronPython - .net code
 StacklessPython 
 Pythonxy
 AnacondaPython 
 
-
-Source code(High Level) (.py)-> compiler ->Byte code(.pyc) -> Run though PVM (Interpreter) -> Binary Code/ machine code -> Output
+Source code(High Level) (.py)  ->  compiler  ->  Byte code(.pyc)  ->  Run though PVM (Interpreter)  ->  Binary Code/ machine code  ->  Output
 
 PVM - Python Virtual Machine - It's a Program
 -> PVM have Interpreter 
@@ -68,12 +49,21 @@ PVM - Python Virtual Machine - It's a Program
 
 Integrated development environment (IDE) 
 
-Identifier
+Q. What is Identifier in python?
 -> naming convention
 -> letter, number, speical char, underscore(_)
+-> never starts with number
+-> used to identify variable, function, function constant, class etc.
+-> Reserved Words can not be used as identifiers.
 
-Reserve Word
+Q. Constant?
+-> In c , c++, java, values are predefinded
+-> python - no constant  - it can be changed
 
-Constant
-c , c++, java predefinded
-python - no define - it can be changed
+Q. Variables and memory allocation in python
+-> In python, a variable is considered as tag that us tied to some value. Python consider value as object.
+Ex. a = 5 then compiler assign an address to 5 which is [5] => 10000 and tied 5 with tag a
+-> if another variable a having the same value as 5 then it will directly taged to [5] which has an address 10000. 
+-> Through this python can save extra memory.
+-> If we define a = 5 and then a = 10 then a will automatically tie with 10 and garbage collector removes the value 5 and assigned address.
+-> for getting id(address), write print(id(a))

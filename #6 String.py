@@ -7,7 +7,7 @@ print("Age:",age)
 
 # Strings Accept 
 '''
-current_yar
+current_year
 _birth_year_
 myVar
 MYVAR
@@ -152,6 +152,10 @@ a = int(input("Enter value of Pen: "))
 b = int(input("Enter Value of Pencil: "))
 
 print("value of pen is {} and pencil is {}".format(a,b))
+
+
+# there is an alternative also.
+print(f"{i} is last Number")
 
 '''-----------------------------------------------
 Escape Character
