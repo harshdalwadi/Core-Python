@@ -1,6 +1,6 @@
 Q. What is Python?
 -> programming language
--> Recent Version -> Python 3.10.0
+-> Recent Version -> Python 3.11.0
 -> it combines the features of C and Java programming language.
 
 Q. Where is Used?  
