@@ -1,11 +1,11 @@
  	'''
 Data Types: 
-	1. List - Always in Squre Brackets	#Mutable
+	1. List - Always in Square Brackets	#Mutable
 	2. Set - Always in Curly Brackets
-	3. Dictionary - Use as pair and ( value 1 : value 2)
+	3. Dictionary - Use as pair and ( value 1: value 2)
 	4. Int - 0
 	5. Float - 0.0
-	6. Complex - ai + j
+	6. Complex - a + j #we have to only use j for the imaginary part.
 	7. Tuple -	#Immutable
 	8. String - chars
 '''
